@@ -8,3 +8,63 @@
 @media(max-width:560px){body{font-size:13px}.sidebar{padding:21px 22px 12px}.section-nav{gap:23px;scrollbar-width:none}.section-nav::-webkit-scrollbar{display:none}.section-nav a{font-size:10px}main{padding:0 22px}.hero{padding-top:29px;padding-bottom:27px}.eyebrow{font-size:8px;letter-spacing:1.8px}.hero h1{font-size:40px;letter-spacing:-1.6px}.hero h1 span{font-size:17px;margin-top:11px}.hero-title{margin-bottom:19px;gap:4px}.hero-title:after{width:64px;height:80px;margin-left:8px}.hero-subtitle{font-size:15px;line-height:1.8;letter-spacing:0;margin-top:18px}.intro{font-size:12px;line-height:1.95}.secondary-intro{font-size:11px}.hero-actions{margin:21px 0 27px;gap:22px}.primary-link{font-size:10px;padding:9px 14px;gap:24px}.interest-grid{gap:12px;padding-top:18px}.interest-grid h3{font-size:11px}.interest-grid p{font-size:8px;line-height:1.6}.interest-number{font-size:8px}.page-section{padding-top:33px;padding-bottom:33px}.section-heading{margin-bottom:19px;gap:14px}.section-heading .eyebrow{font-size:8px;letter-spacing:1.2px}.section-heading h2{font-size:21px;margin-top:7px;letter-spacing:.7px}.section-note{font-size:9px;max-width:110px}.school-monogram{width:35px;height:35px;font-size:18px}.education-item{gap:12px;padding:21px 0}.education-year{display:none}.item-title{gap:7px}.item-title h3{font-size:13px}.education-content p{font-size:10px}.badge{font-size:8px}.academic-stats{gap:25px;margin-top:16px}.academic-stats strong{font-size:23px}.academic-stats>div>span{font-size:8px}.publication-toolbar{align-items:flex-start;gap:4px}.filters{gap:2px}.filters button{font-size:9px;padding:4px 7px}#publication-count{font-size:8px;padding-top:6px}.publication{grid-template-columns:1fr;gap:14px;padding:23px 0}.pub-visual{display:none}.pub-content h3{font-size:13px}.pub-meta{gap:7px;font-size:9px;margin-bottom:7px}.pub-description{font-size:11px}.authors{font-size:9px}.compact-publication{grid-template-columns:23px minmax(0,1fr);gap:10px}.pub-index{font-size:21px}.ongoing{margin-top:17px;padding:18px}.ongoing h3{font-size:12px}.ongoing p{font-size:10px}.project-grid{grid-template-columns:1fr}.project-card{padding:20px}.project-card h3{font-size:16px}.project-top{margin-bottom:17px}.wide-project{grid-column:auto}.wide-project .project-top{margin-bottom:15px}.wide-project h3{font-size:14px}.award-row{gap:12px;padding:14px 0}.award-year{font-size:13px;flex-basis:33px}.award-row h3{font-size:11px}.award-row p{font-size:9px}.award-type{font-size:8px}.patent-note{gap:12px;padding:18px}.patent-note p{font-size:10px}footer{align-items:flex-start;flex-direction:column;gap:22px;padding:28px 0}.footer-meta{justify-content:flex-start;gap:8px 15px}.footer-name{font-size:20px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
 @media print{@page{margin:14mm}body{background:white;font-size:10pt;color:#111}.site-shell{display:block;max-width:none}.sidebar{display:none}main{padding:0}.hero{padding-top:0}.hero h1{font-size:34pt}.hero h1 span{font-size:15pt}.hero-title:after{display:none}.hero-subtitle{font-size:14pt}.intro{font-size:10pt;max-width:none}.hero-actions,.publication-toolbar,.pub-visual,.citation,.section-note,.year-mark,.pub-links,.footer-meta,.skip-link{display:none}.page-section{padding:18px 0}.section-heading{margin-bottom:14px}.section-heading h2{font-size:17pt}.education-year{display:block}.publication,.compact-publication{display:block;padding:16px 0;break-inside:avoid}.publication[hidden]{display:block}.pub-index{display:none}.pub-content h3{font-size:11pt}.pub-description,.authors{font-size:9pt}.pub-meta,.pub-role,.venue{font-size:9pt}.ongoing,.project-card,.patent-note{background:white;break-inside:avoid}.project-grid{display:block}.project-card{margin-bottom:12px}.interest-grid{padding-top:14px}.award-row{break-inside:avoid}.hero-title{margin-top:14px}.hero-title:before{display:none}a{color:inherit}footer{padding:18px 0}.footer-name{font-size:16pt}}
+
+/* Original research figures and institutional marks. */
+.scholarship-highlight{display:flex;align-items:center;gap:11px;width:fit-content;margin:17px 0;padding:5px 0;color:var(--accent);font-size:12px;font-weight:500}
+.scholarship-year{font-family:var(--serif);font-size:14px;padding-right:11px;border-right:1px solid #bccdb8;line-height:1.2}
+.school-logo{width:52px;height:52px;object-fit:contain;flex-shrink:0;margin-top:1px}
+.education-item{gap:20px}
+.certification-row{display:flex;align-items:center;gap:22px;border-top:1px solid var(--line);padding:24px 0 2px}
+.csp-logo{width:105px;height:auto;object-fit:contain;flex-shrink:0;mix-blend-mode:multiply}
+.certification-copy{flex:1;min-width:0}
+.certification-copy h3{font-size:12px;font-weight:500;margin:0;line-height:1.7}
+.certification-copy p{font-size:10px;color:var(--muted);margin:4px 0 0}
+.csp-score{display:flex;align-items:baseline;gap:7px;color:var(--accent)}
+.csp-score strong{font:normal 35px/1.2 var(--serif)}
+.csp-score span{font-size:10px;color:var(--muted)}
+.publication:not(.compact-publication){display:block;padding:29px 0}
+.pub-content h3{font-size:15px}
+.pipeline-figure{margin:17px 0 15px;min-width:0}
+.pipeline-figure>a{display:block;border:1px solid var(--line);border-radius:4px;background:white;padding:12px;overflow:hidden;transition:border-color .2s}
+.pipeline-figure>a:hover{border-color:var(--accent)}
+.pipeline-figure img{display:block;width:100%;height:auto;max-height:420px;object-fit:contain}
+.pipeline-figure figcaption{font-size:9px;line-height:1.8;color:var(--muted);margin-top:7px;text-align:right}
+.mema-pipelines{display:grid;grid-template-columns:1.08fr 1fr;gap:15px;align-items:stretch}
+.mema-pipelines .pipeline-figure{display:flex;flex-direction:column}
+.mema-pipelines .pipeline-figure>a{flex:1;display:flex;align-items:center;padding:10px}
+.mema-pipelines .pipeline-figure img{max-height:285px}
+.ongoing .pipeline-figure{margin-bottom:0}
+.ongoing .pipeline-figure>a{border-color:#d3ddcf}
+.scholarship-award h3{color:var(--accent);font-weight:600}
+@media(max-width:560px){
+  .scholarship-highlight{font-size:11px;margin:14px 0;gap:9px}
+  .scholarship-year{font-size:13px;padding-right:9px}
+  .school-logo{width:43px;height:43px}
+  .education-item{gap:13px}
+  .certification-row{gap:13px;padding-top:19px;flex-wrap:wrap}
+  .csp-logo{width:82px}
+  .certification-copy h3{font-size:10px}
+  .certification-copy p{font-size:9px}
+  .csp-score{gap:4px}
+  .csp-score strong{font-size:29px}
+  .csp-score span{font-size:9px}
+  .pub-content h3{font-size:13px}
+  .pipeline-figure{margin-top:13px;margin-bottom:13px}
+  .pipeline-figure>a{padding:7px}
+  .pipeline-figure figcaption{font-size:8px}
+  .mema-pipelines{grid-template-columns:1fr;gap:0}
+  .mema-pipelines .pipeline-figure img{max-height:none}
+  .mema-pipelines .pipeline-figure>a{padding:7px}
+  .ongoing .pipeline-figure>a{padding:5px}
+}
+@media print{
+  .scholarship-highlight{font-size:10pt}
+  .school-logo{width:42px;height:42px}
+  .certification-row{padding-top:16px}
+  .pipeline-figure{break-inside:avoid;margin-top:12px;margin-bottom:12px}
+  .pipeline-figure img{max-height:200px}
+  .pipeline-figure figcaption{display:none}
+  .publication:not(.compact-publication){break-inside:auto}
+  .publication h3{break-after:avoid}
+  .ongoing{break-inside:auto}
+}
