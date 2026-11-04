@@ -12,7 +12,7 @@
     zjuDegree: 'School of Software Technology · Electronic Information · Direct-entry PhD', zjuDate: 'Enrollment planned for September 2027', upc: 'China University of Petroleum (East China)',
     undergraduate: 'Undergraduate', upcDegree: 'Qingdao Institute of Software · Computer Science and Technology · B.Eng. (expected)', upcDate: 'September 2023 — June 2027 (expected)', average: 'Average grade', rank: 'Major ranking',
     publicationsTitle: 'Publications', publicationNote: '* Equal contribution', filterAll: 'All', filterLead: 'First / Co-first author', filterOther: 'Collaborations',
-    cofirst: 'Co-first author', first: 'First author', fifth: 'Fifth author', sixth: 'Sixth author', computerEngineering: 'Computer Engineering',
+    accepted: 'Accepted', cofirst: 'Co-first author', first: 'First author', fifth: 'Fifth author', sixth: 'Sixth author', computerEngineering: 'Computer Engineering',
     emozoneSummary: 'Fine-grained expression control for audio-driven 3D Gaussian talking heads, using region-specific attention priorities and channel-independent temporal AU encoding while preserving lip synchronization.',
     mistrecSummary: 'Disentangles item representations into semantic and collaborative slots, combining masked slot reconstruction with false-negative reweighting for LLM-based generative recommendation.',
     memaSummary: 'Studies music aesthetics in visual contexts with the VMAE-Sets dataset, cross-modal imagination, and guided cross-attention to model audiovisual narrative relationships.',
