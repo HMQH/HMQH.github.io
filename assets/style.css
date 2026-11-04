@@ -68,3 +68,32 @@
   .publication h3{break-after:avoid}
   .ongoing{break-inside:auto}
 }
+
+.site-topbar{height:52px;display:flex;justify-content:flex-end;align-items:center;gap:26px;border-bottom:1px solid var(--line)}
+.site-topbar a{font-size:11px;color:var(--muted);padding:4px 0}
+.site-topbar a:hover,.site-topbar a.current{color:var(--accent)}
+.site-topbar a.current{box-shadow:0 1px 0 var(--accent)}
+.award-row{align-items:center}
+.award-logo{width:58px;height:44px;flex:0 0 58px;object-fit:contain;display:block}
+.award-row .award-year{flex-basis:38px}
+.baidu-project{max-width:720px;min-height:210px}
+.baidu-project .project-top img{width:38px;height:38px;object-fit:contain}
+.research-patent{margin-top:26px}
+.research-patent p+p{margin-top:5px}
+.research-patent strong{color:var(--ink);font-weight:600}
+.blog-page{min-height:calc(100vh - 105px);display:flex;flex-direction:column;justify-content:flex-start}
+.blog-page h1{font-size:32px;font-weight:500;line-height:1.4;margin:9px 0 14px}
+.blog-page .blog-placeholder{max-width:700px;color:var(--muted);font-size:13px;margin:0}
+.blog-page .blog-empty{margin-top:38px;padding:18px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);font-size:12px}
+.blog-page .blog-empty strong{font-weight:500;color:var(--ink)}
+@media(max-width:560px){
+  .site-topbar{height:46px;gap:21px}
+  .site-topbar a{font-size:10px}
+  .award-logo{width:43px;height:39px;flex-basis:43px}
+  .award-row .award-year{flex-basis:29px}
+  .blog-page{min-height:calc(100vh - 92px)}
+  .blog-page h1{font-size:25px}
+  .blog-page .blog-placeholder,.blog-page .blog-empty{font-size:11px}
+  .baidu-project{min-height:180px}
+}
+@media print{.site-topbar{display:none}}
