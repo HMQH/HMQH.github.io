@@ -112,6 +112,7 @@
 .patent-kicker{font-size:10px;font-weight:600;color:var(--accent)}
 .patent-status{font-size:9px;color:var(--muted)}
 .patent-name{margin:0;color:var(--ink);font-size:17px;font-weight:500;line-height:1.7;overflow-wrap:anywhere}
+.dar-pipeline img{max-height:none}
 @media(max-width:560px){
   .research-group-title{margin-top:25px;font-size:10px}
   .pub-header{gap:8px}

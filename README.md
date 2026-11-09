@@ -24,7 +24,7 @@ Personal academic website: **https://hmqh.github.io/**
 
 ## 研究图示
 
-`assets/pipelines/` 保存作者提供的论文 PPT 中的原始框架图，转为无损 WebP：EmoZone-Talker（第 9 页）、MISTRec（第 13 页）、UniSCG（第 17 页）、MEMA（第 21、22 页）。页面可点击图片查看原图。
+`assets/pipelines/` 保存作者提供的论文框架图，转为无损 WebP：EmoZone-Talker（第 9 页）、MISTRec（第 13 页）、UniSCG（第 17 页）、MEMA（第 21、22 页）和 DAR-Dub。页面可点击图片查看原图。
 
 `assets/logos/` 保存学校校徽与 CCF-CSP 标识。
 
