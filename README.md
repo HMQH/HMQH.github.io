@@ -27,3 +27,5 @@ Personal academic website: **https://hmqh.github.io/**
 `assets/pipelines/` 保存作者提供的论文 PPT 中的原始框架图，转为无损 WebP：EmoZone-Talker（第 9 页）、MISTRec（第 13 页）、UniSCG（第 17 页）、MEMA（第 21、22 页）。页面可点击图片查看原图。
 
 `assets/logos/` 保存学校校徽与 CCF-CSP 标识。
+
+`assets/logos/conferences/` 保存会议标识：ACM Multimedia 2026 会标由作者提供；CIKM 2026 标识来自 [大会官网](https://cikm2026.diag.uniroma1.it/)；AAAI-27 标识来自 [AAAI 官网](https://aaai.org/conference/aaai/aaai-27/)。
